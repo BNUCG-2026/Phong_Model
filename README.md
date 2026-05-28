@@ -20,7 +20,11 @@
 
 以下展示了通过实时调整 `Shininess` 与材质系数，以及物体间产生的实时阴影遮挡效果：
 
+#### Blinn-Phong 模型
+
 ![交互参数调整与硬阴影展示](assets/demo_plus.gif)
+
+#### 经典 Phong 模型
 
 ![交互参数调整与硬阴影展示](assets/demo_main.gif)
 
@@ -78,12 +82,12 @@ uv run main.py
 
 ```text
 .
-├── main.py          # 渲染逻辑与交互 GUI 实现
-├── plus.py          
-├── assets/          # 存放演示图片与 GIF
-│   └── demo.gif     # 实验结果动态展示
-│   └── demo.gif     # 实验结果动态展示
-└── README.md        # 项目文档与实验报告
+├── main.py               # 经典 Phong 模型渲染逻辑与交互 GUI 实现
+├── plus.py               # Blinn-Phong 模型渲染逻辑与交互 GUI 实现
+├── assets/               # 存放演示图片与 GIF
+│   └── demo_main.gif     # 经典 Phong 模型实验结果动态展示
+│   └── demo_plus.gif     # Blinn-Phong 模型实验结果动态展示
+└── README.md             # 项目文档与实验报告
 
 ```
 
