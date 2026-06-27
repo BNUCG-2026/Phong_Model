@@ -1,6 +1,7 @@
 # Computer Graphics Lab: Ray Casting, Phong Shading & Shadows
 
-[![Taichi](https://img.shields.io/badge/Language-Taichi-blue.svg)](https://www.taichi-lang.org/)
+202411081009 吴仲霞 计算机科学与技术
+---
 
 本实验基于 **Taichi** 高性能计算框架，实现了三维场景的 GPU 光线投射（Ray Casting）引擎。项目重点探究了光照模型（Phong vs Blinn-Phong）的视觉差异，并成功引入了硬阴影技术与参数交互调节界面。
 
