@@ -1,4 +1,4 @@
-# Computer Graphics Lab: Ray Casting, Phong Shading & Shadows
+# 计算机图形学实验2 - 光线追踪实验
 
 202411081009 吴仲霞 计算机科学与技术
 ---
